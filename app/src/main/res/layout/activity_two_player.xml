@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.coyg.tictactoe.TwoPlayerActivity">
+
+    <TextView
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/back"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:onClick="Back"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:id="@+id/x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-X-"
+        android:textSize="30dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentBottom="true"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+    <TextView
+        android:id="@+id/xScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="30dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentBottom="true"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+    <TextView
+        android:id="@+id/draw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-DRAW-"
+        android:textSize="20dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="140dp"
+        android:layout_alignParentBottom="true"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+    <TextView
+        android:id="@+id/drawScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="30dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="165dp"
+        android:layout_alignParentBottom="true"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+    <TextView
+        android:id="@+id/o"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-O-"
+        android:textSize="30dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="280dp"
+        android:layout_alignParentBottom="true"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+    <TextView
+        android:id="@+id/oScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="30dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="290dp"
+        android:layout_alignParentBottom="true"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+    <TextView
+        android:id="@+id/sq1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="40sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:onClick="Sq1"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/sq2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:textSize="40sp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="50dp"
+        android:onClick="Sq2"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/sq3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:textSize="40sp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="50dp"
+        android:onClick="Sq3"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/sq4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:textSize="40sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="180dp"
+        android:onClick="Sq4"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/sq5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textSize="40sp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="180dp"
+        android:onClick="Sq5"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/sq6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:textSize="40sp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="180dp"
+        android:onClick="Sq6"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/sq7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:textSize="40sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="300dp"
+        android:onClick="Sq7"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/sq8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:textSize="40sp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="300dp"
+        android:onClick="Sq8"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/sq9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:textSize="40sp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="300dp"
+        android:onClick="Sq9"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+</RelativeLayout>
